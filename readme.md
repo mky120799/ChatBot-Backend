@@ -173,4 +173,4 @@ Server should start at: `http://localhost:5000`
 ## License
 
 This project is licensed under the MIT License.
-© 2025 Your Name
+© 2025 mky120799@gmail.com
