@@ -1,6 +1,6 @@
 # Chatbot Backend API
 
-A **Node.js + Express** backend for a chatbot application, providing user authentication, chat management, and email notifications. This backend uses **MongoDB** for data storage and implements secure authentication and RESTful APIs.
+A **Node.js + Express** backend for a chatbot application, providing (OTP) user authentication, chat management, and email notifications. This backend uses **MongoDB** for data storage and implements secure authentication and RESTful APIs.
 
 ---
 
