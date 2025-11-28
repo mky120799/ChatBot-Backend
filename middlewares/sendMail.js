@@ -66,6 +66,8 @@ const sendMail = async (email, subject, otp) => {
     html,
   });
   console.log("this is sent mail info",sentMailInfo)
+  console.log("this is gmail",process.env.Gmail);
+  console.log("this is password", process.env.Password);
 };
 
 export default sendMail;
