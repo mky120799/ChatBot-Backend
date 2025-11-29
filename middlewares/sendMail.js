@@ -1,6 +1,11 @@
 import { createTransport } from "nodemailer";
 import 'dotenv/config'
-console.log( "user: 💌",process.env.Gmail,"pass:", process.env.Password,)
+console.log(
+  "user: 💌",
+  process.env.GMAIL_USER,
+  "pass:",
+  process.env.GMAIL_PASS
+);
 const sendMail = async (email, subject, otp) => {
   console.log('to send the mail-->',email,subject,otp)
   const transport = createTransport({
